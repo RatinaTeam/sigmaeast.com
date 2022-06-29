@@ -2752,8 +2752,8 @@ form .row [class*=col]{padding-left:0.6rem;padding-right:0.6rem}form .mbr-sectio
   transition: 0.2s background ease-in-out;
 }
 .cid-ta5DM3blbY {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
   background-image: url("../../../assets/images/background3.jpg");
 }
 .cid-ta5DM3blbY .mbr-section-title {
@@ -4590,6 +4590,15 @@ form .row [class*=col]{padding-left:0.6rem;padding-right:0.6rem}form .mbr-sectio
   opacity: 0.5;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
+}
+.cid-tabIdwSeA4 {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  background-color: #075e54;
+}
+.cid-tabIdwSeA4 .mbr-text,
+.cid-tabIdwSeA4 .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-ta5yPfeyLg {
   padding-top: 30px;
