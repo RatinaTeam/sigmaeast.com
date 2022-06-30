@@ -707,10 +707,10 @@ a {
 }
 .cid-sUzsFB78Xp .navbar.navbar-short {
   background: linear-gradient(90deg, rgba(94, 145, 143, 0.76934524) 0%, #005452 46%, #005452 100%);
-  min-height: 60px;
+  min-height: 40px;
 }
 .cid-sUzsFB78Xp .navbar.navbar-short .navbar-logo img {
-  height: 3.8rem !important;
+  height: 3rem !important;
 }
 .cid-sUzsFB78Xp .navbar.navbar-short .navbar-brand {
   padding: 0;
@@ -1041,36 +1041,26 @@ a {
 .cid-tagLvgOtfW .tile-one {
   background-color: #1f1437;
   border-color: #075e54;
-  margin-right: 15px;
   background: transparent;
-}
-@media (max-width: 479px) {
-  .cid-tagLvgOtfW .tile-one {
-    margin-right: 25px;
-  }
 }
 .cid-tagLvgOtfW .tile-two {
   background-color: #1f1437;
   border-color: #075e54;
-  margin-right: 15px;
   background: transparent;
 }
 .cid-tagLvgOtfW .tile-three {
   background-color: #1f1437;
   border-color: #075e54;
-  margin-right: 15px;
   background: transparent;
 }
 @media (max-width: 479px) {
   .cid-tagLvgOtfW .tile-three {
     margin-top: 25px;
-    margin-right: 25px;
   }
 }
 .cid-tagLvgOtfW .tile-four {
   background-color: #1f1437;
   border-color: #075e54;
-  margin-right: 15px;
   position: relative;
   background: transparent;
 }
@@ -1684,10 +1674,10 @@ form .row [class*=col]{padding-left:0.6rem;padding-right:0.6rem}form .mbr-sectio
 }
 .cid-sV358Y64e2 .navbar.navbar-short {
   background: linear-gradient(90deg, rgba(94, 145, 143, 0.76934524) 0%, #005452 46%, #005452 100%);
-  min-height: 60px;
+  min-height: 40px;
 }
 .cid-sV358Y64e2 .navbar.navbar-short .navbar-logo img {
-  height: 3.8rem !important;
+  height: 3rem !important;
 }
 .cid-sV358Y64e2 .navbar.navbar-short .navbar-brand {
   padding: 0;
@@ -2289,10 +2279,10 @@ form .row [class*=col]{padding-left:0.6rem;padding-right:0.6rem}form .mbr-sectio
 }
 .cid-ta5yPdgy25 .navbar.navbar-short {
   background: linear-gradient(90deg, rgba(94, 145, 143, 0.76934524) 0%, #005452 46%, #005452 100%);
-  min-height: 60px;
+  min-height: 40px;
 }
 .cid-ta5yPdgy25 .navbar.navbar-short .navbar-logo img {
-  height: 3.8rem !important;
+  height: 3rem !important;
 }
 .cid-ta5yPdgy25 .navbar.navbar-short .navbar-brand {
   padding: 0;
