@@ -26,9 +26,8 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
-
 </head>
-<body>
+<body onload="selectS()">
   
   <section data-bs-version="5.1" class="menu menu1 studiom4_menu1 cid-sV358Y64e2" once="menu" id="menu1-t">
 	
@@ -94,7 +93,7 @@
                             <div class="line1"></div>
                             <div class="mbr-form top" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="yCkegqOHz/Yq3NRv6SclA/ZfvV62MqPFObbzSGAzH5cP9MNPUGGgvGKdy9PesjtHtzL6ApUEQjAyYMTRHdCoFg+0Kv9K8DqFGJCbvxGnbMWOq6A4/pRDTTogkKKhGv5u.k1VjcaxTHIbutFI3fhuyZGh/rdvhcYwq0UZHyri0X7BUOsNw7Wa0LqosfBpn5nidCnv/Wfc59DAPtci1tk8Ek0D/7pRj1GmYRMDrUwHL0hA0fNWmgNbDouDyy0te/uEH">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="xQ3g0Eclb7C962qM1VzkaHUDhR6XUG32sHcRyy+f1S0iDKKy1cdfW/BAMzVYxOQvDa2MR6jNge8xmerixPutFB4+OnC5Jl/CQTPQVjza4JWXgYGvJGRLCpd1UOVECfye.MK2XzaUb6t+Z5yVvmFu3ZlLSRPt6+u/N7vEp5Vx3WeDkzJw3hZu9nJ/qRhvMVNALHLYqYOaIdUqToRA9EanZjw3gIpjtsL/Wcfg6btVZaeJiQQUQKnq8RN2b1jE+UDCW">
 <div class="form-row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">شكراً سوف يتم التواصل معك</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> Oops...! some problem!</div>
@@ -103,21 +102,17 @@
 <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="text">
 <input type="text" name="text" placeholder="الأسم" data-form-field="text" class="form-control display-7" value="" id="text-form2-y">
 </div>   
-    <script>
 
-function MyF(){ var url = new URL(window.location.href);
-//const $select = document.querySelector('#select-form2-y');
-//var c = url.searchParams.get("c");
-//$select.value = url.searchParams.get("c");   
-  document.querySelector('#select-form2-y').value = url.searchParams.get("c");
-}
-
+<script>
 </script>
 
-<div onload="MyF()" class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="select"> 
+
+
+<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="select"> 
 <select id="select-form2-y" name="select" data-form-field="select" class="form-control form-select display-7">
 
 <option value="الخدمة">الخدمة</option>
+    <option value="إنشاء المباني">إنشاء المباني</option>
     <option value="اعمال الاستانلس ستيل للمصاعد والمباني">اعمال الاستانلس ستيل للمصاعد والمباني</option>
     <option value="اعمال الألمونيوم والزجاج">اعمال الألمونيوم والزجاج</option>
     <option value="اعمال الانترلوك و البلدورات">اعمال الانترلوك و البلدورات</option>
@@ -130,7 +125,6 @@ function MyF(){ var url = new URL(window.location.href);
     <option value="اعمال الليزر و البلازما">اعمال الليزر و البلازما</option>
     <option value="الاعمال الهياكل المعدنية">الاعمال الهياكل المعدنية</option>
     <option value="الصيانة والتشغيل">الصيانة والتشغيل</option>
-    <option value="إنشاء المباني">إنشاء المباني</option>
     <option value="تأجير المعدات البحرية والبرية">تأجير المعدات البحرية والبرية</option>
     <option value="تركيب المصدات والحواجز الخراسانية">تركيب المصدات والحواجز الخراسانية</option>
     <option value="تصميم وتنفيذ النظم الميكانيكية">تصميم وتنفيذ النظم الميكانيكية</option>
@@ -175,11 +169,11 @@ function MyF(){ var url = new URL(window.location.href);
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid.min.js"></script>
-  
+  <script src="assets/formoid.min.js"></script> 
   <script src="assets/ctrl.js"></script>
+  <script src="js-1.js"></script>
+
   
   <input name="animation" type="hidden">
-  
-</body>
+  </body>
 </html>
