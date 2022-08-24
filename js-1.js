@@ -27,6 +27,14 @@ function getOneService(){
 
     var y = service.findIndex(arr => arr.includes(s));
     document.getElementById('ServiceLink').href = "request_service.html?s="+s.replace(" ","+")+"";
+   // document.getElementsByClassName('ServiceLink').href = "request_service.html?s="+s.replace(" ","+")+"";
+   
+
+
+
+
+
+
     for(let i = 0; i < service.length; i++) {
         for(let j = 1; j < service[i].length; j++) {
             if (!(service[i][j] == service[y][1]||service[i][j] == service[y][2])){
